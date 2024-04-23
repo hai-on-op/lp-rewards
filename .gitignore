@@ -3,3 +3,4 @@ node_modules/
 rewards.csv
 gcp_key.json
 notes.txt
+.DS_Store
