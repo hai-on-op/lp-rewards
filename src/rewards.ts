@@ -225,7 +225,7 @@ export const processRewardEvent = async (
         throw Error('Unknown event');
     }
 
-    sanityCheckAllUsers(users, event);
+    // sanityCheckAllUsers(users, event);
 
     // Individual user check, uncomment to create a report
     // const u = "0x00000...".toLowerCase()

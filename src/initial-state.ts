@@ -137,6 +137,7 @@ const getInitialSafesDebt = async (
 };
 
 export const getAccumulatedRate = async (block: number, cType: string) => {
+  console.log('cType', cType);
   return Number(
     (
       await subgraphQuery(
